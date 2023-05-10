@@ -1,0 +1,25 @@
+.mounts {
+  position: relative;
+  background-image: url(IMAGE.jpg);
+  height: 90vh;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  padding: 0 143px;
+  div {
+    h1 {
+      color: color;
+
+      font-size: 20px;
+    }
+
+    p {
+      width: 300px;
+
+      font-size: 15px;
+    }
+  }
+}
+

@@ -1,0 +1,42 @@
+.camera {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+
+  .img {
+    background-image: url(IMAGE.jpg);
+    background-repeat: no-repeat;
+
+    width: 50%;
+    height: 80vh;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 50%;
+
+    padding: 0 143px 0 130px;
+
+    p {
+      font-size: 14px;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 32px;
+
+      margin: 10px 0;
+    }
+
+    p1 {
+      font-size: 14px;
+      line-height: 20px;
+
+      margin: 10px 0;
+    }
+  }
+}
